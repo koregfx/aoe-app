@@ -1,10 +1,10 @@
-# aoe-app
+# AOE-app
 
-## docker info
-yo can do `docker compose up` to up the two part of this aplication (back and front)
+## Docker info
+You can do `docker compose up` to up the two part of this aplication (back and front)
 
 ## Front app
-this app is build in Angular and the port to exposed when do the docker compose up is the port 80 that is the default port if you visit localhost if yo want more info of the frontend you can check in the aoe-frontend folder
+This app is built in Angular and the port to expose when doing the docker compose up is the port 80, that is the default port if you visit localhost. If you want more information about the frontend you can check the aoe-frontend folder.
 
 ## Back app
-This app is an node js expres backend and the port exposed in the docker compose up is the port 4000 if yo want more info of the backen you can check in the aoe-backend folder
+This app is an node.js express backend and the port to expose in the docker compose up is the port 4000. If you want more information about the backend you can check the aoe-backend folder.
