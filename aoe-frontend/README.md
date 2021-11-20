@@ -15,4 +15,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ##Docker
 
-This proyect also have the dockerFile configurated only run docker build . and you can run the container the port that the container is 80
+This proyect also have the dockerFile configurated only run `docker build .` and you can run the container the port that the container is 80
