@@ -13,3 +13,6 @@ Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:42
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+##Docker
+
+This proyect also have the dockerFile configurated only run docker build . and you can run the container the port that the container is 80
