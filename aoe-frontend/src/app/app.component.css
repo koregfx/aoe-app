@@ -1,0 +1,16 @@
+.listItem{
+  display: flex;
+  flex-direction: row;
+}
+.listItem p{
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.listItem img{
+  height: 30px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

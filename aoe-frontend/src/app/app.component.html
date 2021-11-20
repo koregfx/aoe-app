@@ -1,0 +1,17 @@
+<input type="text" [value]="this.user.name" #nameInput/>
+<button (click)="login(nameInput.value)"> Login </button>
+
+<p>{{this.user.name}}</p>
+
+<br/>
+<button (click)="saveFav()"> Save Fav </button>
+<ul>
+  <li *ngFor="let item of civilizations" class="listItem">
+    <p>{{item.name}}</p>
+    <button (click)="changeFav(item.id)">fav</button>
+    <img *ngIf="isCivFav(item.id)" src="https://cdn-icons-png.flaticon.com/512/121/121727.png" alt="">
+  </li>
+
+</ul>
+
+<router-outlet></router-outlet>
